@@ -1,0 +1,35 @@
+NAME
+  irbcp
+
+DESCRIPTION
+  irbcp gives access to your system's clipboard (copy and paste) from irb
+
+  it works on osx and linux
+
+SYNOPSIS
+
+  0) install the gem
+
+    gem install irbcp
+
+  1) in your .irbrc do
+
+    require 'rubygems' unless defined?(Gem)
+
+    require 'irbcp'
+
+  2) now in irb you could do
+
+    cp 'this data is copied to your clibboard from irb'
+
+  3) if you've copied something to your system clipboard you can simply do
+
+    cp
+
+    to paste it into irb
+
+  NOTE:
+    you can use the commands 'copy' and 'paste' if you love carpal tunnel
+
+WINDOWS
+  send a patch!
