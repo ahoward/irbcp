@@ -16,7 +16,10 @@ module Irbcp
       Paste = 'xsel –clipboard –output'
 
     when /windoze/
-      raise 'fail!' # TODO !
+      #  Windows Server 2003 , Windows Vista , Windows 7. Anything else don t have and don t matter anymore :)
+      Copy = 'clip.exe'
+      # download paste.exe from http://www.c3scripts.com/tutorials/msdos/paste.html#exe
+      Paste = 'paste.exe'
   end
 
   def copy(*args)
