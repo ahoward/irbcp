@@ -1,7 +1,7 @@
 require 'systemu'
 
 module Irbcp
-  Version = '0.0.1'
+  Version = '0.0.2'
 
   def Irbcp.version() Irbcp::Version end
 
@@ -16,9 +16,11 @@ module Irbcp
       Paste = 'xsel –clipboard –output'
 
     when /windoze/
-      #  Windows Server 2003 , Windows Vista , Windows 7. Anything else don t have and don t matter anymore :)
+    ##  Windows Server 2003 , Windows Vista , Windows 7. Anything else don t have and don t matter anymore :)
+    #
       Copy = 'clip.exe'
-      # download paste.exe from http://www.c3scripts.com/tutorials/msdos/paste.html#exe
+    ## download paste.exe from http://www.c3scripts.com/tutorials/msdos/paste.html#exe
+    #
       Paste = 'paste.exe'
   end
 

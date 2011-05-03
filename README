@@ -4,10 +4,9 @@ NAME
 DESCRIPTION
   irbcp gives access to your system's clipboard (copy and paste) from irb
 
-  it works on osx and linux
+  it works on osx, linux and windows.
 
 SYNOPSIS
-
   0) install the gem
 
     gem install irbcp
@@ -28,8 +27,10 @@ SYNOPSIS
 
     to paste it into irb
 
-  NOTE:
-    you can use the commands 'copy' and 'paste' if you love carpal tunnel
+NOTES
+  - you can use the commands 'copy' and 'paste' if you love carpal tunnel
 
-WINDOWS
-  send a patch!
+  - windows past support is via
+
+    http://www.c3scripts.com/tutorials/msdos/paste.html#exe
+

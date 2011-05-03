@@ -3,13 +3,13 @@
 
 Gem::Specification::new do |spec|
   spec.name = "irbcp"
-  spec.version = "0.0.1"
+  spec.version = "0.0.2"
   spec.platform = Gem::Platform::RUBY
   spec.summary = "irbcp"
   spec.description = "description: irbcp kicks the ass"
 
   spec.files =
-["README", "Rakefile", "irbcp.rb", "lib", "lib/irbcp.rb"]
+["README", "Rakefile", "irbcp.gemspec", "irbcp.rb", "lib", "lib/irbcp.rb"]
 
   spec.executables = []
   
