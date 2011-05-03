@@ -126,6 +126,7 @@ task :gemspec do
 
           ### spec.add_dependency 'lib', '>= version'
           #### spec.add_dependency 'map'
+          spec.add_dependency 'systemu'
 
             spec.extensions.push(*#{ extensions.inspect })
 

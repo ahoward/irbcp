@@ -1,7 +1,7 @@
 require 'systemu'
 
 module Irbcp
-  Version = '0.0.2'
+  Version = '0.0.3'
 
   def Irbcp.version() Irbcp::Version end
 

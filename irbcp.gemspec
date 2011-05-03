@@ -3,7 +3,7 @@
 
 Gem::Specification::new do |spec|
   spec.name = "irbcp"
-  spec.version = "0.0.2"
+  spec.version = "0.0.3"
   spec.platform = Gem::Platform::RUBY
   spec.summary = "irbcp"
   spec.description = "description: irbcp kicks the ass"
@@ -19,6 +19,7 @@ Gem::Specification::new do |spec|
 
 ### spec.add_dependency 'lib', '>= version'
 #### spec.add_dependency 'map'
+spec.add_dependency 'systemu'
 
   spec.extensions.push(*[])
 
