@@ -1,7 +1,7 @@
 require 'systemu'
 
 module Irbcp
-  Version = '0.0.3'
+  Version = '0.0.4'
 
   def Irbcp.version() Irbcp::Version end
 
@@ -12,8 +12,8 @@ module Irbcp
       Paste = 'pbpaste'
 
     when /linux/
-      Copy = 'xsel –clipboard –input'
-      Paste = 'xsel –clipboard –output'
+      Copy = 'xsel -clipboard -input'
+      Paste = 'xsel -clipboard -output'
 
     when /windoze/
     ##  Windows Server 2003 , Windows Vista , Windows 7. Anything else don t have and don t matter anymore :)
